@@ -1,8 +1,0 @@
-@inproceedings{wood2018detecting,
-  title={Detecting speech act types in developer question/answer conversations during bug repair},
-  author={Wood, Andrew and Rodeghero, Paige and Armaly, Ameer and McMillan, Collin},
-  booktitle={Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
-  pages={491--502},
-  year={2018},
-  organization={ACM}
-}
