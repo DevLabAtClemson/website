@@ -14,10 +14,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
-})
-
-export default defineConfig({
-  // ...
   build: {
     rollupOptions: {
       external: ["fsevents"],
