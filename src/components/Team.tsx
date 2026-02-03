@@ -5,7 +5,7 @@ const Team = () => {
     name: "Dr. Paige Rodeghero",
     role: "Lab Director",
     title: "Associate Professor & Dean's Professor",
-    image: "https://paigerodeghero.com/HTML/img/dr_rodeghero_sm.jpeg",
+    image: "/profiles/paige.jpg",
     specialization: "Developer Productivity & Human Factors",
     website: "https://paigerodeghero.com/",
     email: "prodegh@clemson.edu",
@@ -15,25 +15,38 @@ const Team = () => {
     {
       name: "Khairatun Hissan",
       role: "PhD Student",
-      specialization: "Research Assistant",
     },
     {
       name: "Manoj Sankuru",
       role: "PhD Student",
-      specialization: "Research Assistant",
     },
   ];
 
   const undergrads = [
     {
-      name: "Ryan Peddapalli",
+      name: "Ryon Peddapalli",
       role: "Undergrad",
-      specialization: "Research Assistant",
+      image: "/profiles/ryon.jpg",
     },
     {
       name: "Hazel Torek",
       role: "Undergrad",
-      specialization: "Research Assistant",
+      image: "/profiles/hazel.jpg",
+    },
+    {
+      name: "Charles Lai",
+      role: "Undergrad",
+      image: "/profiles/charles.jpg",
+    },
+    {
+      name: "Veer Patel",
+      role: "Undergrad",
+      image: "/profiles/veer.jpg",
+    },
+    {
+      name: "Dylan Kauffman",
+      role: "Undergrad",
+      image: "/profiles/dylan.jpg",
     },
   ];
 
@@ -77,7 +90,9 @@ const Team = () => {
                   <p className="text-muted-foreground mb-2">{director.title}</p>
                   <div className="inline-flex items-center gap-1 px-3 py-1 bg-accent/50 rounded-full mb-4">
                     <GraduationCap className="w-3 h-3 text-accent-foreground" />
-                    <span className="text-xs text-accent-foreground">{director.specialization}</span>
+                    {director.specialization && (
+                      <span className="text-xs text-accent-foreground">{director.specialization}</span>
+                    )}
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">
                     Previously a Visiting Researcher at Microsoft Research. Industry experience at a startup and medium-sized companies. PhD from University of Notre Dame.
@@ -155,8 +170,12 @@ const Team = () => {
                   className="group bg-card rounded-2xl p-5 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
                 >
                   <div className="relative mb-4">
-                    <div className="w-16 h-16 mx-auto rounded-full bg-muted flex items-center justify-center ring-4 ring-muted group-hover:ring-primary/20 transition-all">
-                      <User className="w-6 h-6 text-muted-foreground" />
+                    <div className="w-16 h-16 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-2 py-0.5 bg-accent text-accent-foreground text-xs font-medium rounded-full">
                       {member.role}
