@@ -15,10 +15,12 @@ const Team = () => {
     {
       name: "Khairatun Hissan",
       role: "PhD Student",
+      image: "/profiles/hissan.jpg",
     },
     {
       name: "Manoj Sankuru",
       role: "PhD Student",
+      image: "/profiles/manoj.jpeg",
     },
   ];
 
@@ -136,11 +138,21 @@ const Team = () => {
               {phdStudents.map((member, index) => (
                 <div
                   key={index}
-                  className="group bg-card rounded-2xl p-6 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
+                  className="group bg-card rounded-2xl p-10 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
                 >
-                  <div className="relative mb-5">
-                    <div className="w-20 h-20 mx-auto rounded-full bg-muted flex items-center justify-center ring-4 ring-muted group-hover:ring-primary/20 transition-all">
-                      <User className="w-8 h-8 text-muted-foreground" />
+                  <div className="relative mb-6">
+                    <div className="w-32 h-32 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
+                      {member.image ? (
+                        <img
+                          src={member.image}
+                          alt={member.name}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-muted flex items-center justify-center">
+                          <User className="w-10 h-10 text-muted-foreground" />
+                        </div>
+                      )}
                     </div>
                     <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 bg-primary text-primary-foreground text-xs font-medium rounded-full">
                       {member.role}
@@ -148,7 +160,7 @@ const Team = () => {
                   </div>
 
                   <div className="text-center">
-                    <h4 className="font-heading font-semibold text-lg text-foreground mb-1">
+                    <h4 className="font-heading font-semibold text-xl text-foreground mb-1">
                       {member.name}
                     </h4>
                     <p className="text-sm text-muted-foreground">{member.specialization}</p>
@@ -163,14 +175,14 @@ const Team = () => {
             <h3 className="font-heading font-semibold text-xl text-foreground mb-6 text-center">
               Undergraduate Researchers
             </h3>
-            <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+            <div className="grid sm:grid-cols-3 gap-8 max-w-5xl mx-auto">
               {undergrads.map((member, index) => (
                 <div
                   key={index}
-                  className="group bg-card rounded-2xl p-5 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
+                  className="group bg-card rounded-2xl p-8 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
                 >
-                  <div className="relative mb-4">
-                    <div className="w-16 h-16 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
+                  <div className="relative mb-5">
+                    <div className="w-24 h-24 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
                       <img
                         src={member.image}
                         alt={member.name}
@@ -183,7 +195,7 @@ const Team = () => {
                   </div>
 
                   <div className="text-center">
-                    <h4 className="font-heading font-medium text-base text-foreground mb-1">
+                    <h4 className="font-heading font-medium text-lg text-foreground mb-1">
                       {member.name}
                     </h4>
                     <p className="text-xs text-muted-foreground">{member.specialization}</p>
