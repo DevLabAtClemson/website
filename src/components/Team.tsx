@@ -38,7 +38,7 @@ const Team = () => {
     {
       name: "Charles Lai",
       role: "Undergrad",
-      image: "/profiles/charles.jpg",
+      image: "/profiles/charles.jpeg",
     },
     {
       name: "Veer Patel",
@@ -48,7 +48,7 @@ const Team = () => {
     {
       name: "Dylan Kauffman",
       role: "Undergrad",
-      image: "/profiles/dylan.jpg",
+      image: "/profiles/dylan.jpeg",
     },
   ];
 
