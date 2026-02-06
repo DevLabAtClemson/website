@@ -6,7 +6,7 @@ const Team = () => {
     role: "Lab Director",
     title: "Associate Professor & Dean's Professor",
     image: "/profiles/paige.jpg",
-    specialization: "Developer Productivity & Human Factors",
+    specialization: "Developer Productivity & Empirical Software Engineering",
     website: "https://paigerodeghero.com/",
     email: "prodegh@clemson.edu",
   };
