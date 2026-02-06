@@ -21,11 +21,19 @@ const Hero = () => {
             <span className="text-gradient">Developers Work</span>
           </h1>
 
-         <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-        Researching developer productivity, remote collaboration, and human-centered software engineering at
-        <br />
-        Clemson University.
-        </p>
+         <div className="mb-12 max-w-3xl mx-auto text-muted-foreground leading-relaxed space-y-4">
+  <p className="text-xl md:text-2xl">
+    <strong className="text-foreground">DevLab@Clemson</strong> is a research lab studying how people build, understand, and collaborate on software.
+  </p>
+
+  <p>
+    Our work focuses on developer productivity, onboarding and learning, code comprehension, and human-centered tools for modern software development—particularly in contexts shaped by AI assistance, accessibility needs, and remote collaboration.
+  </p>
+
+  <p>
+    We design, build, and empirically study systems that support real developers, with the goal of improving how software is learned, practiced, and maintained at scale.
+  </p>
+</div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
