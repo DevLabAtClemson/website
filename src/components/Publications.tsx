@@ -46,7 +46,10 @@ const Publications = () => {
               Developer Productivity
             </span>
             <span className="px-4 py-2 text-sm font-medium rounded-full bg-muted text-muted-foreground">
-              Remote Onboarding
+              Software Engineering and AI
+            </span>
+            <span className="px-4 py-2 text-sm font-medium rounded-full bg-muted text-muted-foreground">
+               Onboarding
             </span>
             <span className="px-4 py-2 text-sm font-medium rounded-full bg-muted text-muted-foreground">
               Code Comprehension
