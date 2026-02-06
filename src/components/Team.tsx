@@ -154,9 +154,9 @@ const Team = () => {
                         </div>
                       )}
                     </div>
-                    <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 bg-primary text-primary-foreground text-xs font-medium rounded-full">
-                      {member.role}
-                    </div>
+                   <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 bg-primary text-primary-foreground text-xs font-medium rounded-full whitespace-nowrap">
+  {member.role}
+</div>
                   </div>
 
                   <div className="text-center">
