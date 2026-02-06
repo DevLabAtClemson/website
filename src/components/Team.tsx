@@ -96,7 +96,7 @@ const Team = () => {
                     )}
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">
-Director of DevLab@Clemson, where she studies how developers learn, understand, and work with complex software systems. Her research combines tool-building with controlled experiments and field studies, with recent work on onboarding, code comprehension, and AI-assisted software development. She was previously a Visiting Researcher at Microsoft Research and has industry experience at both startups and mid-sized companies.</p>
+Director of DevLab@Clemson, where she studies how developers learn, understand, and work with complex software systems. Her research combines tool-building with controlled experiments and field studies, with work on onboarding, code comprehension, and AI-assisted software development. She was previously a Visiting Researcher at Microsoft Research and has industry experience at both startups and mid-sized companies.</p>
 
                   <div className="flex justify-center sm:justify-start gap-3">
                     <a 
