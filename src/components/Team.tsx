@@ -63,8 +63,7 @@ const Team = () => {
               Meet the Researchers
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our team brings together expertise in software engineering, human-computer interaction, 
-              and empirical research methods.
+              Our team brings together expertise in software engineering, empirical research methods, and the design and evaluation of developer-facing systems.
             </p>
           </div>
 
