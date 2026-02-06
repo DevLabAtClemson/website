@@ -96,8 +96,7 @@ const Team = () => {
                     )}
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">
-  Associate Professor of Computer Science and Dean’s Professor at Clemson University, and Director of DevLab@Clemson. Research focuses on developer productivity and empirical software engineering, emphasizing how developers learn, understand, and work with complex software systems. Designs and evaluates developer-facing tools using controlled experiments and field studies, including work on onboarding, code comprehension, and AI-assisted software development. Previously a Visiting Researcher at Microsoft Research, with industry experience at both startups and mid-sized companies.
-</p>
+Director of DevLab@Clemson, where she studies how developers learn, understand, and work with complex software systems. Her research combines tool-building with controlled experiments and field studies, with recent work on onboarding, code comprehension, and AI-assisted software development. She was previously a Visiting Researcher at Microsoft Research and has industry experience at both startups and mid-sized companies.</p>
 
                   <div className="flex justify-center sm:justify-start gap-3">
                     <a 
