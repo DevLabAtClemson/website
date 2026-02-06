@@ -32,7 +32,7 @@ const Team = () => {
     },
     {
       name: "Hazel Torek",
-      role: "Undergrad Researcher",
+      role: "Undergraduate Researcher",
       image: "/profiles/hazel.jpg",
     },
     {
