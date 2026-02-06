@@ -27,27 +27,27 @@ const Team = () => {
   const undergrads = [
     {
       name: "Ryon Peddapalli",
-      role: "Undergrad",
+      role: "Undergraduate Researcher",
       image: "/profiles/ryon.jpg",
     },
     {
       name: "Hazel Torek",
-      role: "Undergrad",
+      role: "Undergrad Researcher",
       image: "/profiles/hazel.jpg",
     },
     {
       name: "Charles Lai",
-      role: "Undergrad",
+      role: "Undergraduate Researcher",
       image: "/profiles/charles.jpeg",
     },
     {
       name: "Veer Patel",
-      role: "Undergrad",
+      role: "Undergraduate Researcher",
       image: "/profiles/veer.jpg",
     },
     {
       name: "Dylan Kauffman",
-      role: "Undergrad",
+      role: "Undergraduate Researcher",
       image: "/profiles/dylan.jpeg",
     },
   ];
