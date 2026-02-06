@@ -21,10 +21,11 @@ const Hero = () => {
             <span className="text-gradient">Developers Work</span>
           </h1>
 
-          {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-            Researching developer productivity, remote collaboration, and human-centered software engineering at Clemson University.
-          </p>
+         <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
+        Researching developer productivity, remote collaboration, and human-centered software engineering at
+        <br />
+        Clemson University.
+        </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
