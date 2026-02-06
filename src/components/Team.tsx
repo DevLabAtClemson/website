@@ -189,9 +189,9 @@ const Team = () => {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-2 py-0.5 bg-accent text-accent-foreground text-xs font-medium rounded-full">
-                      {member.role}
-                    </div>
+                   <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-2 py-0.5 bg-accent text-accent-foreground text-xs font-medium rounded-full whitespace-nowrap">
+  {member.role}
+</div>
                   </div>
 
                   <div className="text-center">
