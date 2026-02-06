@@ -63,6 +63,9 @@ const Publications = () => {
             <span className="px-4 py-2 text-sm font-medium rounded-full bg-muted text-muted-foreground">
               Software Accessibility
             </span>
+             <span className="px-4 py-2 text-sm font-medium rounded-full bg-muted text-muted-foreground">
+              Software Engineering Education
+            </span>
           </div>
         </div>
       </div>
