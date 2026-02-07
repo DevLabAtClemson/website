@@ -16,12 +16,14 @@ const Team = () => {
       name: "Khairatun Hissan",
       role: "PhD Student",
       image: "/profiles/hissan.jpg",
-      specialization: "AI-assisted software development; developer tooling; SE Education",
+      specialization: "AI-assisted software development, SE education, empirical studies",
     },
     {
       name: "Manoj Sankuru",
       role: "PhD Student",
       image: "/profiles/manoj.jpeg",
+      specialization: "Dataset adaptation for SE tools, multi-agent LLMs, SE education",
+
     },
   ];
 
@@ -30,26 +32,33 @@ const Team = () => {
       name: "Ryon Peddapalli",
       role: "Undergraduate Researcher",
       image: "/profiles/ryon.jpg",
+      specialization: "Collaborative programming systems, SE education",
     },
     {
       name: "Hazel Torek",
       role: "Undergraduate Researcher",
       image: "/profiles/hazel.jpg",
+      specialization: "Gradual verification, formal semantics, soundness"
     },
     {
       name: "Charles Lai",
       role: "Undergraduate Researcher",
       image: "/profiles/charles.jpeg",
+      specialization: "AI-assisted software development, developer tooling",
+
     },
     {
       name: "Veer Patel",
       role: "Undergraduate Researcher",
       image: "/profiles/veer.jpg",
+      specialization: "AI-assisted software development, developer tooling",
     },
     {
       name: "Dylan Kauffman",
       role: "Undergraduate Researcher",
       image: "/profiles/dylan.jpeg",
+      specialization: "AI-assisted software development, developer tooling",
+
     },
   ];
 
