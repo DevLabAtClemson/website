@@ -21,7 +21,7 @@ const Navbar = () => {
             <img
               src="/devlab-header.png"
               alt="DevLab at Clemson University"
-              className="h-8 w-auto"
+              className="h-10 w-auto"
             />
           </a>
 
