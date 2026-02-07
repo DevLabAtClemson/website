@@ -16,6 +16,7 @@ const Team = () => {
       name: "Khairatun Hissan",
       role: "PhD Student",
       image: "/profiles/hissan.jpg",
+      specialization: "AI-assisted software development; developer tooling; SE Education",
     },
     {
       name: "Manoj Sankuru",
