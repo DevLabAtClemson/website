@@ -19,7 +19,7 @@ const Navbar = () => {
           {/* Logo */}
           <a href="#" className="flex items-center">
             <img
-              src="/logo/devlab-header.png"
+              src="/devlab-header.png"
               alt="DevLab at Clemson University"
               className="h-8 w-auto"
             />
