@@ -33,8 +33,10 @@ const About = () => {
               AI-assisted software development on software engineering practice.
             </p>
 
-            <p className="text-sm text-muted-foreground leading-relaxed">
-  Research in DevLab@Clemson has been supported by the National Science Foundation and Clemson University. 
+          <p className="text-xs text-muted-foreground">
+  Research supported by the National Science Foundation and Clemson University.
+</p>
+<p className="text-xs text-muted-foreground">
   We collaborate with academic and industry partners on applied software engineering research.
 </p>
           </div>
