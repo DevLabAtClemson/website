@@ -34,7 +34,7 @@ const About = () => {
             </p>
 
           <p className="text-xs text-muted-foreground">
-  Research supported by the National Science Foundation and Clemson University.
+  Research supported by the National Science Foundation (NSF) and Clemson University.
 </p>
 <p className="text-xs text-muted-foreground">
   We collaborate with academic and industry partners on applied software engineering research.
