@@ -203,7 +203,7 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
             </div>
           </div>
 
-        {/* Recruiting / Join Cue */}
+ {/* Recruiting / Join Cue */}
 <div className="mt-16">
   <div className="max-w-2xl mx-auto bg-card border border-border rounded-2xl p-8 text-center">
     <h3 className="font-heading font-semibold text-xl text-foreground mb-3">
@@ -212,6 +212,12 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
     <p className="text-sm text-muted-foreground mb-5">
       We regularly work with PhD students and undergraduate researchers on empirical software engineering and developer-focused systems, including projects on developer productivity, onboarding, and AI-assisted software development.
     </p>
+    <a
+      href="mailto:prodegh@clemson.edu"
+      className="inline-flex items-center px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition"
+    >
+      Contact the Lab
+    </a>
   </div>
 </div>
         </div>
