@@ -27,11 +27,7 @@ const Hero = () => {
   </p>
 
   <p>
-    Our work focuses on developer productivity, onboarding and learning, code comprehension, and human-centered tools for modern software development—particularly in contexts shaped by AI assistance, accessibility needs, and remote collaboration.
-  </p>
-
-  <p>
-    We design, build, and empirically study systems that support real developers, with the goal of improving how software is learned, practiced, and maintained at scale.
+  Our work focuses on developer productivity, onboarding and learning, code comprehension, and human-centered tools for modern software development—particularly in contexts shaped by AI assistance, accessibility needs, and remote collaboration. We design, build, and empirically study systems that support real developers to improve how software is learned, practiced, and maintained at scale.
   </p>
 </div>
 
