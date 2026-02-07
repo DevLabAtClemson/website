@@ -58,7 +58,7 @@ const Team = () => {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <span className="text-primary font-semibold tracking-wide uppercase text-sm">Our Team</span>
+            <span className="text-primary font-semibold tracking-wide uppercase text-sm">People</span>
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-4 mb-6">
               Meet the Researchers
             </h2>
