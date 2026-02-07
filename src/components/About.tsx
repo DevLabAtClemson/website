@@ -21,7 +21,16 @@ const About = () => {
             </p>
 
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-             Our work focuses on developer productivity, onboarding and learning, code comprehension, and human-centered tools for modern software development—particularly in contexts shaped by AI assistance, accessibility needs, and remote collaboration. We design, build, and empirically study systems that support real developers, with the goal of improving how software is learned, practiced, and maintained at scale.
+              Our research advances empirical software engineering through the design and evaluation
+              of developer-facing systems. We combine tool-building with rigorous empirical methods,
+              including controlled experiments and field studies, to study real development settings
+              and inform how software is learned, practiced, and maintained.
+            </p>
+
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              Current work explores developer productivity, onboarding and learning, source code
+              comprehension, collaborative and distributed development, and the impact of
+              AI-assisted software development on software engineering practice.
             </p>
 
             <p className="text-xs text-muted-foreground">
