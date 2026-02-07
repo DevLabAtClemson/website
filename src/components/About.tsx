@@ -34,9 +34,9 @@ const About = () => {
             </p>
 
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Research in DevLab@Clemson has been supported by the National Science Foundation and
-              Clemson University.
-            </p>
+  Research in DevLab@Clemson has been supported by the National Science Foundation and Clemson University. 
+  We collaborate with academic and industry partners on applied software engineering research.
+</p>
           </div>
         </div>
       </div>
