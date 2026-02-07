@@ -4,28 +4,38 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <span className="text-primary font-semibold tracking-wide uppercase text-sm">About Us</span>
+            <span className="text-primary font-semibold tracking-wide uppercase text-sm">
+              About
+            </span>
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-4 mb-6">
-              Research with Real-World Impact
+              Empirical Software Engineering Research
             </h2>
           </div>
 
           <div className="bg-background rounded-2xl p-8 md:p-12 border border-border">
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              DevLab@Clemson is a research laboratory at Clemson University's School of Computing, 
-              led by Dr. Paige Rodeghero. We investigate how developers learn, work, and collaborate—especially 
-              in remote and distributed environments.
+              DevLab@Clemson is a software engineering research lab in Clemson University&apos;s
+              School of Computing, directed by Dr. Paige Rodeghero. We study how developers build,
+              understand, and collaborate on software, with a focus on the tools and practices
+              used in modern software development.
             </p>
+
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              What sets us apart is our focus on <span className="text-foreground font-medium">practical impact over theory</span>. 
-              Dr. Rodeghero brings firsthand industry experience from working as a software engineer at a startup 
-              and multiple medium-sized companies. This background shapes our research approach: we study real problems 
-              that affect real developers and create solutions that can be adopted in practice.
+              Our research advances empirical software engineering through the design and evaluation
+              of developer-facing systems. We combine tool-building with rigorous empirical methods,
+              including controlled experiments and field studies, to study real development settings
+              and inform how software is learned, practiced, and maintained.
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Our work spans developer productivity, onboarding, source code comprehension, 
-              virtual reality for programming, and making software development more accessible for everyone. 
-              We combine rigorous empirical methods with a commitment to research that matters.
+
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              Current work explores developer productivity, onboarding and learning, source code
+              comprehension, collaborative and distributed development, and the impact of
+              AI-assisted software development on software engineering practice.
+            </p>
+
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Research in DevLab@Clemson has been supported by the National Science Foundation and
+              Clemson University.
             </p>
           </div>
         </div>
