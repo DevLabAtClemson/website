@@ -197,9 +197,9 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
                         className="w-full h-full object-cover"
                       />
                     </div>
-                   <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 bg-primary text-primary-foreground text-xs font-medium rounded-full whitespace-nowrap">
+                  <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 bg-accent text-accent-foreground text-xs font-medium rounded-full whitespace-nowrap">
                     {member.role}
-                    </div>
+                  </div>
                   </div>
 
                  <div className="text-center">
