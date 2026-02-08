@@ -187,10 +187,10 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
               {undergrads.map((member, index) => (
                 <div
                   key={index}
-                  className="group bg-card rounded-2xl p-8 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
+                  className="group bg-card rounded-2xl p-10 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
                 >
                   <div className="relative mb-5">
-                    <div className="w-24 h-24 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
+                    <div className="w-32 h-32 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
                       <img
                         src={member.image}
                         alt={member.name}
@@ -198,16 +198,18 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
                       />
                     </div>
                    <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-2 py-0.5 bg-accent text-accent-foreground text-xs font-medium rounded-full whitespace-nowrap">
-  {member.role}
-</div>
+                      {member.role}
+                    </div>
                   </div>
 
-                  <div className="text-center">
-                    <h4 className="font-heading font-medium text-lg text-foreground mb-1">
+                 <div className="text-center">
+                    <h4 className="font-heading font-medium text-xl text-foreground mb-1">
                       {member.name}
                     </h4>
-                    <p className="text-xs text-muted-foreground">{member.specialization}</p>
-                  </div>
+                    <p className="text-sm text-muted-foreground">
+                      {member.specialization}
+                    </p>
+                </div>
                 </div>
               ))}
             </div>
