@@ -183,13 +183,13 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
             <h3 className="font-heading font-semibold text-xl text-foreground mb-6 text-center">
               Undergraduate Researchers
             </h3>
-            <div className="grid sm:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="grid sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
               {undergrads.map((member, index) => (
                 <div
                   key={index}
                   className="group bg-card rounded-2xl p-10 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
                 >
-                  <div className="relative mb-5">
+                  <div className="relative mb-6">
                     <div className="w-32 h-32 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
                       <img
                         src={member.image}
@@ -197,13 +197,13 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
                         className="w-full h-full object-cover"
                       />
                     </div>
-                   <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-2 py-0.5 bg-accent text-accent-foreground text-xs font-medium rounded-full whitespace-nowrap">
-                      {member.role}
+                   <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 bg-primary text-primary-foreground text-xs font-medium rounded-full whitespace-nowrap">
+                    {member.role}
                     </div>
                   </div>
 
                  <div className="text-center">
-                    <h4 className="font-heading font-medium text-xl text-foreground mb-1">
+                    <h4 className="font-heading font-semibold text-xl text-foreground mb-1">  
                       {member.name}
                     </h4>
                     <p className="text-sm text-muted-foreground">
