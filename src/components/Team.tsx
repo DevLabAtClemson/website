@@ -142,7 +142,7 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
             <h3 className="font-heading font-semibold text-xl text-foreground mb-6 text-center">
               PhD Students
             </h3>
-            <div className="grid sm:grid-cols-2 gap-6 max-w-xl mx-auto">
+            <div className="grid sm:grid-cols-2 gap-6 max-w-5xl mx-auto">
               {phdStudents.map((member, index) => (
                 <div
                   key={index}
