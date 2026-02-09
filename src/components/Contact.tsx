@@ -24,7 +24,8 @@ const Contact = () => {
               </div>
               <h3 className="font-heading font-semibold text-xl text-foreground mb-3">Location</h3>
               <p className="text-muted-foreground leading-relaxed">
-                School of Computing<br />
+                McAdams Hall<br />
+                821 McMillan Rd<br />
                 Clemson University<br />
                 Clemson, SC 29634
               </p>
