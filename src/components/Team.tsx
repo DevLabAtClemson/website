@@ -19,7 +19,7 @@ const Team = () => {
       specialization: "AI-assisted software development, SE education, empirical studies",
     },
     {
-      name: "Manoj Sankuru",
+      name: "Manoj Sankuru, M.S.",
       role: "PhD Student",
       image: "/profiles/manoj.jpeg",
       specialization: "Dataset adaptation for SE tools, multi-agent LLMs, SE education",
