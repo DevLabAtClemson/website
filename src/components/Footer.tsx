@@ -6,13 +6,6 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <div className="relative w-10 h-10">
-                <div className="absolute inset-0 bg-primary rounded-lg rotate-6" />
-                <div className="absolute inset-0 bg-background/20 rounded-lg -rotate-3" />
-                <div className="relative w-full h-full bg-primary rounded-lg flex items-center justify-center">
-                  <span className="text-primary-foreground font-heading font-bold text-xl">D</span>
-                </div>
-              </div>
               <div className="flex flex-col leading-none">
                 <span className="font-heading font-bold text-lg">DevLab</span>
                 <span className="text-xs text-primary font-semibold tracking-wide">@Clemson</span>
