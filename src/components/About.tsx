@@ -45,12 +45,12 @@ const About = () => {
               <img
                 src="/nsf.png"
                 alt="National Science Foundation"
-                className="h-10 object-contain opacity-80"
+                className="h-10 object-contain"
               />
               <img
                 src="/clemson.png"
                 alt="Clemson University"
-                className="h-10 object-contain opacity-80"
+                className="h-10 object-contain"
               />
             </div>
 
