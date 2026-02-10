@@ -142,7 +142,7 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
             <h3 className="font-heading font-semibold text-xl text-foreground mb-6 text-center">
               PhD Students
             </h3>
-            <div className="grid sm:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <div className="grid sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
               {phdStudents.map((member, index) => (
                 <div
                   key={index}
@@ -162,9 +162,6 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
                         </div>
                       )}
                     </div>
-                   <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 bg-primary text-primary-foreground text-xs font-medium rounded-full whitespace-nowrap">
-  {member.role}
-</div>
                   </div>
 
                   <div className="text-center">
@@ -197,9 +194,6 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
                         className="w-full h-full object-cover"
                       />
                     </div>
-                  <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 bg-accent text-accent-foreground text-xs font-medium rounded-full whitespace-nowrap">
-                    {member.role}
-                  </div>
                   </div>
 
                  <div className="text-center">
