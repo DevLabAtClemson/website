@@ -2,7 +2,7 @@ import { Linkedin, Mail, GraduationCap, ExternalLink, User } from "lucide-react"
 
 const Team = () => {
   const director = {
-    name: "Dr. Paige Rodeghero",
+    name: "Paige Rodeghero, PhD",
     role: "Lab Director",
     title: "Associate Professor & Dean's Professor",
     image: "/profiles/paige.jpg",
