@@ -142,11 +142,11 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
             <h3 className="font-heading font-semibold text-xl text-foreground mb-6 text-center">
               PhD Students
             </h3>
-            <div className="grid sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div className="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
               {phdStudents.map((member, index) => (
                 <div
                   key={index}
-                  className="group bg-card rounded-2xl p-10 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
+                  className="group bg-card rounded-2xl p-10 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 w-full sm:w-[280px]">
                 >
                   <div className="relative mb-6">
                     <div className="w-32 h-32 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
@@ -180,11 +180,11 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
             <h3 className="font-heading font-semibold text-xl text-foreground mb-6 text-center">
               Undergraduate Researchers
             </h3>
-            <div className="grid sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div className="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
               {undergrads.map((member, index) => (
                 <div
                   key={index}
-                  className="group bg-card rounded-2xl p-10 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300"
+                  className="group bg-card rounded-2xl p-10 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 w-full sm:w-[280px]">
                 >
                   <div className="relative mb-6">
                     <div className="w-32 h-32 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
