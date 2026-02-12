@@ -40,6 +40,20 @@ const About = () => {
   Research supported by the National Science Foundation (NSF) and Clemson University.
 </p>
 
+             {/* Logos */}
+            <div className="flex items-center justify-center gap-8 pt-4 border-t border-border/50">
+              <img
+                src="/nsf.png"
+                alt="National Science Foundation"
+                className="h-10 object-contain"
+              />
+              <img
+                src="/clemson.png"
+                alt="Clemson University"
+                className="h-10 object-contain"
+              />
+            </div>
+
           </div>
         </div>
       </div>
