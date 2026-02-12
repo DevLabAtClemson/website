@@ -2,7 +2,7 @@ import { Linkedin, Mail, GraduationCap, ExternalLink, User } from "lucide-react"
 
 const Team = () => {
   const director = {
-    name: "Paige Rodeghero, PhD",
+    name: "Dr. Paige Rodeghero",
     role: "Lab Director",
     title: "Associate Professor & Dean's Professor",
     image: "/profiles/paige.jpg",
@@ -147,7 +147,6 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
                 <div
                   key={index}
                   className="group bg-card rounded-2xl p-10 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 w-full sm:w-[280px]">
-                >
                   <div className="relative mb-6">
                     <div className="w-32 h-32 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
                       {member.image ? (
@@ -185,7 +184,6 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
                 <div
                   key={index}
                   className="group bg-card rounded-2xl p-10 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 w-full sm:w-[280px]">
-                >
                   <div className="relative mb-6">
                     <div className="w-32 h-32 mx-auto rounded-full overflow-hidden ring-4 ring-muted group-hover:ring-primary/20 transition-all">
                       <img
