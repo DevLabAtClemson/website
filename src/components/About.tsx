@@ -37,7 +37,7 @@ const About = () => {
   We collaborate with academic and industry partners on applied software engineering research.
 </p>
           <p className="text-xs text-muted-foreground">
-  Research supported by the National Science Foundation (NSF) and Clemson University.
+  Research supported by the National Science Foundation (NSF), Clemson University, and South Carolina State University.
 </p>
 
              {/* Logos */}
@@ -50,6 +50,11 @@ const About = () => {
               <img
                 src="/clemson.png"
                 alt="Clemson University"
+                className="h-10 object-contain"
+              />
+              <img
+                src="/state.jpg"
+                alt="South Carolina State University"
                 className="h-10 object-contain"
               />
             </div>
