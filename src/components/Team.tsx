@@ -58,7 +58,12 @@ const Team = () => {
       role: "Undergraduate Researcher",
       image: "/profiles/dylan.jpeg",
       specialization: "AI-assisted software development, developer tooling",
-
+    },
+    {
+      name: "Julia Holzbach",
+      role: "Undergraduate Researcher",
+      image: "/profiles/julia.jpg",
+      specialization: "AI-assisted software development, developer tooling",
     },
   ];
 
@@ -167,7 +172,10 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
                     <h4 className="font-heading font-semibold text-xl text-foreground mb-1">
                       {member.name}
                     </h4>
-                    <p className="text-sm text-muted-foreground">{member.specialization}</p>
+                    <p className="text-sm text-primary/80 mb-1">{member.role}</p>
+                    {member.specialization && (
+                      <p className="text-sm text-muted-foreground">{member.specialization}</p>
+                    )}
                   </div>
                 </div>
               ))}
@@ -194,10 +202,11 @@ Director of DevLab@Clemson, where she studies how developers learn, understand, 
                     </div>
                   </div>
 
-                 <div className="text-center">
+                <div className="text-center">
                     <h4 className="font-heading font-semibold text-xl text-foreground mb-1">  
                       {member.name}
                     </h4>
+                    <p className="text-sm text-primary/80 mb-1">{member.role}</p>
                     <p className="text-sm text-muted-foreground">
                       {member.specialization}
                     </p>
