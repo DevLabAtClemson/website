@@ -65,6 +65,12 @@ const Team = () => {
       image: "/profiles/julia.jpg",
       specialization: "AI-assisted software development, developer tooling",
     },
+     {
+      name: "Jacob Alexander",
+      role: "Undergraduate Researcher",
+      image: "/profiles/jacob.jpeg",
+      specialization: "AI-assisted code comprehension, sustainable software systems, developer productivity",
+    },
   ];
 
   return (
