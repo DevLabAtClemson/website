@@ -63,7 +63,7 @@ const Team = () => {
       name: "Julia Holzbach",
       role: "Undergraduate Researcher",
       image: "/profiles/julia.jpg",
-      specialization: "AI-assisted software development, developer tooling",
+      specialization: "Collaborative programming systems, AI-assisted software development",
     },
      {
       name: "Jacob Alexander",
