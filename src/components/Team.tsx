@@ -32,7 +32,7 @@ const Team = () => {
       name: "Ryon Peddapalli",
       role: "Undergraduate Researcher",
       image: "/profiles/ryon.jpg",
-      specialization: "Collaborative programming systems, SE education",
+      specialization: "Collaborative programming systems, SE education, AI-assisted software development",
     },
     {
       name: "Hazel Torek",
@@ -51,19 +51,19 @@ const Team = () => {
       name: "Veer Patel",
       role: "Undergraduate Researcher",
       image: "/profiles/veer.jpg",
-      specialization: "AI-assisted software development, developer tooling",
+      specialization: "AI-assisted software development, developer tooling, SE education",
     },
     {
       name: "Dylan Kauffman",
       role: "Undergraduate Researcher",
       image: "/profiles/dylan.jpeg",
-      specialization: "AI-assisted software development, developer tooling",
+      specialization: "AI-assisted software development, developer tooling, SE education",
     },
     {
       name: "Julia Holzbach",
       role: "Undergraduate Researcher",
       image: "/profiles/julia.jpg",
-      specialization: "Collaborative programming systems, AI-assisted software development",
+      specialization: "Collaborative programming systems, AI-assisted software development, SE education",
     },
      {
       name: "Jacob Alexander",
