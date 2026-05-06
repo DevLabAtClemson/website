@@ -77,6 +77,12 @@ const Team = () => {
       image: "/profiles/esther.jpg",
       specialization: "SE education",
     },
+    {
+      name: "Martin Hare Jr.",
+      role: "Undergraduate Researcher",
+      image: "",
+      specialization: "AI-assisted code comprehension, sustainable software systems, developer productivity",
+    },
   ];
 
   return (
