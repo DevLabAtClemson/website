@@ -80,7 +80,7 @@ const Team = () => {
     {
       name: "Martin Hare Jr.",
       role: "Undergraduate Researcher",
-      image: "martin.jpeg",
+      image: "martin.JPEG",
       specialization: "AI-assisted code comprehension, sustainable software systems, developer productivity",
     },
   ];
