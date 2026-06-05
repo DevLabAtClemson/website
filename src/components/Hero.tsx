@@ -27,7 +27,7 @@ const Hero = () => {
   </p>
 
   <p>
-Our work focuses on developer productivity, onboarding and learning, code comprehension, and human factors in modern software development—particularly in contexts shaped by AI assistance and remote collaboration. We design, build, and empirically study systems that support real developers and improve how software is learned, practiced, and maintained.  </p>
+Our work focuses on the future of work, developer productivity, onboarding and learning, code comprehension, and human factors in modern software development—particularly in contexts shaped by AI assistance and remote collaboration. We design, build, and empirically study systems that support real developers and improve how software is learned, practiced, and maintained.  </p>
 </div>
 
           {/* CTA Buttons */}
