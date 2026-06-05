@@ -28,7 +28,7 @@ const About = () => {
             </p>
 
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Current work explores developer productivity, onboarding and learning, source code
+              Current work explores the future of work, developer productivity, onboarding and learning,source code
               comprehension, collaborative and distributed development, and the impact of
               AI-assisted software development on software engineering practice.
             </p>
