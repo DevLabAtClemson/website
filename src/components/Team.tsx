@@ -22,7 +22,7 @@ const Team = () => {
       name: "Manoj Sankuru, M.S.",
       role: "PhD Student",
       image: "/profiles/manoj.jpeg",
-      specialization: "Dataset adaptation for SE tools, multi-agent LLMs, SE education",
+      specialization: "Agentic AI, LLMs, reinforcement learning, efficient open-weight models, and Empirical Software Engineering",
 
     },
   ];
