@@ -34,63 +34,61 @@ const Team = () => {
     },
   ];
 
-  const undergrads = [
-    {
-      name: "Ryon Peddapalli",
-      role: "Undergraduate Researcher",
-      image: "/profiles/ryon.jpg",
-      specialization: "Collaborative programming systems, SE education, AI-assisted software development",
-    },
-    {
-      name: "Hazel Torek",
-      role: "Undergraduate Researcher",
-      image: "/profiles/hazel.jpg",
-      specialization: "Gradual verification, formal semantics, soundness"
-    },
-    {
-      name: "Charles Lai",
-      role: "Undergraduate Researcher",
-      image: "/profiles/charles.jpeg",
-      specialization: "AI-assisted software development, developer tooling",
-
-    },
-    {
-      name: "Veer Patel",
-      role: "Undergraduate Researcher",
-      image: "/profiles/veer.jpg",
-      specialization: "AI-assisted software development, developer tooling, SE education",
-    },
-    {
-      name: "Dylan Kauffman",
-      role: "Undergraduate Researcher",
-      image: "/profiles/dylan.jpeg",
-      specialization: "AI-assisted software development, developer tooling, SE education",
-    },
-    {
-      name: "Julia Holzbach",
-      role: "Undergraduate Researcher",
-      image: "/profiles/julia.jpg",
-      specialization: "Collaborative programming systems, AI-assisted software development, SE education",
-    },
-     {
-      name: "Jacob Alexander",
-      role: "Undergraduate Researcher",
-      image: "/profiles/jacob.jpeg",
-      specialization: "AI-assisted code comprehension, sustainable software systems, developer productivity",
-    },
-     {
-      name: "Esther Riley",
-      role: "Undergraduate Researcher",
-      image: "/profiles/esther.jpg",
-      specialization: "SE education",
-    },
-    {
-      name: "Martin Hare Jr.",
-      role: "Undergraduate Researcher",
-      image: "/profiles/martin.JPEG",
-      specialization: "AI-assisted code comprehension, sustainable software systems, developer productivity",
-    },
-  ];
+  {
+    name: "Jacob Alexander",
+    role: "Undergraduate Researcher",
+    image: "/profiles/jacob.jpeg",
+    specialization: "AI-assisted code comprehension, sustainable software systems, developer productivity",
+  },
+  {
+    name: "Martin Hare Jr.",
+    role: "Undergraduate Researcher",
+    image: "/profiles/martin.JPEG",
+    specialization: "AI-assisted code comprehension, sustainable software systems, developer productivity",
+  },
+  {
+    name: "Julia Holzbach",
+    role: "Undergraduate Researcher",
+    image: "/profiles/julia.jpg",
+    specialization: "Collaborative programming systems, AI-assisted software development, SE education",
+  },
+  {
+    name: "Dylan Kauffman",
+    role: "Undergraduate Researcher",
+    image: "/profiles/dylan.jpeg",
+    specialization: "AI-assisted software development, developer tooling, SE education",
+  },
+  {
+    name: "Charles Lai",
+    role: "Undergraduate Researcher",
+    image: "/profiles/charles.jpeg",
+    specialization: "AI-assisted software development, developer tooling",
+  },
+  {
+    name: "Ryon Peddapalli",
+    role: "Undergraduate Researcher",
+    image: "/profiles/ryon.jpg",
+    specialization: "Collaborative programming systems, SE education, AI-assisted software development",
+  },
+  {
+    name: "Veer Patel",
+    role: "Undergraduate Researcher",
+    image: "/profiles/veer.jpg",
+    specialization: "AI-assisted software development, developer tooling, SE education",
+  },
+  {
+    name: "Esther Riley",
+    role: "Undergraduate Researcher",
+    image: "/profiles/esther.jpg",
+    specialization: "SE education",
+  },
+  {
+    name: "Hazel Torek",
+    role: "Undergraduate Researcher",
+    image: "/profiles/hazel.jpg",
+    specialization: "Gradual verification, formal semantics, soundness",
+  },
+];
 
   return (
     <section id="team" className="py-24 bg-background">
