@@ -34,6 +34,7 @@ const Team = () => {
     },
   ];
 
+  const undergrads = [
   {
     name: "Jacob Alexander",
     role: "Undergraduate Researcher",
