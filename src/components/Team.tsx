@@ -19,6 +19,13 @@ const Team = () => {
       specialization: "AI-assisted software development, SE education, empirical studies",
     },
     {
+      name: "Ken Roulier, M.S.",
+      role: "PhD Student",
+      image: "/profiles/ken.jpeg",
+      specialization: "Usable security, human–AI interaction, developer trust/reliance in AI-assisted security tools",
+
+    },
+    {
       name: "Manoj Sankuru, M.S.",
       role: "PhD Student",
       image: "/profiles/manoj.jpeg",
