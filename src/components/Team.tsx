@@ -29,7 +29,7 @@ const Team = () => {
       name: "Manoj Sankuru, M.S.",
       role: "PhD Student",
       image: "/profiles/manoj.jpeg",
-      specialization: "Agentic AI, LLMs, reinforcement learning, efficient open-weight models, and Empirical Software Engineering",
+      specialization: "Agentic AI, empirical studies, SE education",
 
     },
   ];
@@ -39,13 +39,13 @@ const Team = () => {
     name: "Jacob Alexander",
     role: "Undergraduate Researcher",
     image: "/profiles/jacob.jpeg",
-    specialization: "AI-assisted code comprehension, sustainable software systems, developer productivity",
+    specialization: "AI-assisted code comprehension, sustainable software systems",
   },
   {
     name: "Martin Hare Jr.",
     role: "Undergraduate Researcher",
     image: "/profiles/martin.JPEG",
-    specialization: "AI-assisted code comprehension, sustainable software systems, developer productivity",
+    specialization: "AI-assisted code comprehension, sustainable software systems",
   },
   {
     name: "Julia Holzbach",
@@ -66,16 +66,16 @@ const Team = () => {
     specialization: "AI-assisted software development, developer tooling",
   },
   {
-    name: "Ryon Peddapalli",
-    role: "Undergraduate Researcher",
-    image: "/profiles/ryon.jpg",
-    specialization: "Collaborative programming systems, SE education, AI-assisted software development",
-  },
-  {
     name: "Veer Patel",
     role: "Undergraduate Researcher",
     image: "/profiles/veer.jpg",
     specialization: "AI-assisted software development, developer tooling, SE education",
+  },
+  {
+    name: "Ryon Peddapalli",
+    role: "Undergraduate Researcher",
+    image: "/profiles/ryon.jpg",
+    specialization: "Collaborative programming systems, SE education, AI-assisted software development",
   },
   {
     name: "Esther Riley",
