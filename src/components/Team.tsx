@@ -47,6 +47,12 @@ const Team = () => {
     image: "/profiles/martin.JPEG",
     specialization: "AI-assisted code comprehension, sustainable software systems",
   },
+    {
+    name: "Nathan Gaertner",
+    role: "Undergraduate Researcher",
+    image: "/profiles/nathan.jpeg",
+    specialization: "AI-assisted software development",
+  },
   {
     name: "Julia Holzbach",
     role: "Undergraduate Researcher",
