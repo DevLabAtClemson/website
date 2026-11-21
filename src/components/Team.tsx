@@ -25,13 +25,6 @@ const Team = () => {
       specialization: "Usable security, human–AI interaction, developer trust/reliance in AI-assisted security tools",
 
     },
-    {
-      name: "Manoj Sankuru, M.S.",
-      role: "PhD Student",
-      image: "/profiles/manoj.jpeg",
-      specialization: "Agentic AI, empirical studies, SE education",
-
-    },
   ];
 
   const undergrads = [
